@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 from random_walk import RandomWalk
 
 # Keep making walks as long as the program is active.
-while True: 
+while True:
     # Make a random walk, and plot the points.
-    rw = RandomWalk(50000)
+    rw = RandomWalk(100000)
     rw.fill_walk()
 
     # Set the size of the plotting window.
